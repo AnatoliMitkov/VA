@@ -7,7 +7,7 @@ const products = [
     id: 1,
     name: 'Aura Macrame Dress',
     description: 'Intricate hand-knotted evening wear crafted from organic cotton.',
-    price: '450.00',
+    price: '150.00',
     image: 'https://images.unsplash.com/photo-1515347619362-75fb04b1bf75?q=80&w=800&auto=format&fit=crop',
   },
   {
