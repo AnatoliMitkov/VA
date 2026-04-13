@@ -1,0 +1,80 @@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling By VA</title>
+    <link rel="canonical" href="https://stylingbyva.com/">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Required Fonts for CodeNest Design -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Inter:wght@400;700;800&family=Plus+Jakarta+Sans:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- HLS.js for Streaming Background Video -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+</head>
+<body class="dark-theme">
+
+    <!-- Background Video & Overlays -->
+    <div class="video-container">
+        <video id="hero-video" autoplay muted loop playsinline></video>
+        <div class="video-overlay"></div>
+        <div class="grid-lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="central-glow"></div>
+    </div>
+
+    <!-- Global Navigation -->
+    <header class="site-header">
+        <div class="logo">CodeNest</div>
+        <nav class="desktop-menu">
+            <a href="#">PROJECTS</a>
+            <a href="#">BLOG</a>
+            <a href="#">ABOUT</a>
+            <a href="#">RESUME</a>
+        </nav>
+        <button class="mobile-menu-btn" id="menu-open">
+            <!-- Lucide Menu Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </button>
+    </header>
+
+    <!-- Mobile Full-Screen Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu">
+        <button class="mobile-menu-close" id="menu-close">
+            <!-- Lucide X Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <nav class="mobile-nav">
+            <a href="#">PROJECTS</a>
+            <a href="#">BLOG</a>
+            <a href="#">ABOUT</a>
+            <a href="#">RESUME</a>
+        </nav>
+    </div>
+
+    <!-- Main Hero Content -->
+    <main class="hero-content">
+        <div class="liquid-card">
+            <span class="card-tag">[ 2025 ]</span>
+            <h2 class="card-headline">Taught by <span class="italic-serif">Industry</span> Professionals</h2>
+            <p class="card-desc">Master in-demand coding skills</p>
+        </div>
+
+        <div class="hero-text-wrapper">
+            <span class="eyebrow">Career-Ready Curriculum</span>
+            <h1 class="main-headline">LAUNCH YOUR CODING CAREER<span class="accent-dot">.</span></h1>
+            <p class="description">Master in-demand coding skills with our comprehensive, project-based learning platform. Built for the modern developer.</p>
+            
+            <button class="cta-button">
+                GET STARTED
+                <!-- Lucide ArrowRight Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
