@@ -23,6 +23,9 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"]);
+__TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].config({
+    nullTargetWarn: false
+});
 function ClientEngine({ children }) {
     _s();
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
@@ -318,7 +321,7 @@ function ClientEngine({ children }) {
                 className: "hidden md:flex fixed top-0 left-0 w-3 h-3 bg-[#1C1C1C] rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 transition-[width,height,background-color] duration-300 ease-out justify-center items-center text-white text-[10px] uppercase tracking-widest font-medium text-opacity-0"
             }, void 0, false, {
                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                lineNumber: 180,
+                lineNumber: 181,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -333,12 +336,12 @@ function ClientEngine({ children }) {
                             children: loaderTitle
                         }, void 0, false, {
                             fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                            lineNumber: 183,
+                            lineNumber: 184,
                             columnNumber: 50
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                        lineNumber: 183,
+                        lineNumber: 184,
                         columnNumber: 17
                     }, this),
                     loaderSub && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -348,18 +351,18 @@ function ClientEngine({ children }) {
                             children: loaderSub
                         }, void 0, false, {
                             fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                            lineNumber: 184,
+                            lineNumber: 185,
                             columnNumber: 69
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                        lineNumber: 184,
+                        lineNumber: 185,
                         columnNumber: 31
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                lineNumber: 182,
+                lineNumber: 183,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -372,7 +375,7 @@ function ClientEngine({ children }) {
                         children: "The VA Store"
                     }, void 0, false, {
                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                        lineNumber: 188,
+                        lineNumber: 189,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -384,7 +387,7 @@ function ClientEngine({ children }) {
                                 children: "Collections"
                             }, void 0, false, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 190,
+                                lineNumber: 191,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -392,7 +395,7 @@ function ClientEngine({ children }) {
                                 children: "Bespoke"
                             }, void 0, false, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 191,
+                                lineNumber: 192,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -401,19 +404,19 @@ function ClientEngine({ children }) {
                                 children: "Cart (1) €"
                             }, void 0, false, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 192,
+                                lineNumber: 193,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                        lineNumber: 189,
+                        lineNumber: 190,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                lineNumber: 187,
+                lineNumber: 188,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -424,12 +427,12 @@ function ClientEngine({ children }) {
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                    lineNumber: 198,
+                    lineNumber: 199,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                lineNumber: 197,
+                lineNumber: 198,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -446,7 +449,7 @@ function ClientEngine({ children }) {
                                         children: "The VA Store"
                                     }, void 0, false, {
                                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                        lineNumber: 205,
+                                        lineNumber: 206,
                                         columnNumber: 58
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -454,13 +457,13 @@ function ClientEngine({ children }) {
                                         children: "Elevating traditional craftsmanship into avant-garde fashion."
                                     }, void 0, false, {
                                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                        lineNumber: 205,
+                                        lineNumber: 206,
                                         columnNumber: 160
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 205,
+                                lineNumber: 206,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -474,7 +477,7 @@ function ClientEngine({ children }) {
                                                 children: "Explore"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 207,
+                                                lineNumber: 208,
                                                 columnNumber: 62
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -483,7 +486,7 @@ function ClientEngine({ children }) {
                                                 children: "Home"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 207,
+                                                lineNumber: 208,
                                                 columnNumber: 113
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -492,7 +495,7 @@ function ClientEngine({ children }) {
                                                 children: "Collections"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 207,
+                                                lineNumber: 208,
                                                 columnNumber: 212
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -501,13 +504,13 @@ function ClientEngine({ children }) {
                                                 children: "Bespoke"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 207,
+                                                lineNumber: 208,
                                                 columnNumber: 329
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                        lineNumber: 207,
+                                        lineNumber: 208,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -518,7 +521,7 @@ function ClientEngine({ children }) {
                                                 children: "Connect"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 208,
+                                                lineNumber: 209,
                                                 columnNumber: 62
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -527,7 +530,7 @@ function ClientEngine({ children }) {
                                                 children: "Instagram"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 208,
+                                                lineNumber: 209,
                                                 columnNumber: 113
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -536,25 +539,25 @@ function ClientEngine({ children }) {
                                                 children: "Pinterest"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 208,
+                                                lineNumber: 209,
                                                 columnNumber: 201
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                        lineNumber: 208,
+                                        lineNumber: 209,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 206,
+                                lineNumber: 207,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                        lineNumber: 204,
+                        lineNumber: 205,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -564,7 +567,7 @@ function ClientEngine({ children }) {
                                 children: "© 2026 The VA Store."
                             }, void 0, false, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 211,
+                                lineNumber: 212,
                                 columnNumber: 213
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -572,19 +575,19 @@ function ClientEngine({ children }) {
                                 children: "Crafted in Sofia, BG"
                             }, void 0, false, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 211,
+                                lineNumber: 212,
                                 columnNumber: 245
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                        lineNumber: 211,
+                        lineNumber: 212,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                lineNumber: 203,
+                lineNumber: 204,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -596,7 +599,7 @@ function ClientEngine({ children }) {
                         className: "cart-overlay absolute inset-0 bg-[#1C1C1C]/60 backdrop-blur-md opacity-0 cursor-pointer"
                     }, void 0, false, {
                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                        lineNumber: 215,
+                        lineNumber: 216,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -610,7 +613,7 @@ function ClientEngine({ children }) {
                                         children: "Cart"
                                     }, void 0, false, {
                                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                        lineNumber: 217,
+                                        lineNumber: 218,
                                         columnNumber: 113
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -619,13 +622,13 @@ function ClientEngine({ children }) {
                                         children: "Close"
                                     }, void 0, false, {
                                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                        lineNumber: 217,
+                                        lineNumber: 218,
                                         columnNumber: 207
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 217,
+                                lineNumber: 218,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -639,7 +642,7 @@ function ClientEngine({ children }) {
                                             alt: "Aura Vest"
                                         }, void 0, false, {
                                             fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                            lineNumber: 218,
+                                            lineNumber: 219,
                                             columnNumber: 140
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -653,7 +656,7 @@ function ClientEngine({ children }) {
                                                             children: "Aura Vest"
                                                         }, void 0, false, {
                                                             fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                            lineNumber: 218,
+                                                            lineNumber: 219,
                                                             columnNumber: 402
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -661,13 +664,13 @@ function ClientEngine({ children }) {
                                                             children: "Remove"
                                                         }, void 0, false, {
                                                             fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                            lineNumber: 218,
+                                                            lineNumber: 219,
                                                             columnNumber: 488
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                    lineNumber: 218,
+                                                    lineNumber: 219,
                                                     columnNumber: 352
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -675,24 +678,24 @@ function ClientEngine({ children }) {
                                                     children: "€450"
                                                 }, void 0, false, {
                                                     fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                    lineNumber: 218,
+                                                    lineNumber: 219,
                                                     columnNumber: 620
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                            lineNumber: 218,
+                                            lineNumber: 219,
                                             columnNumber: 308
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                    lineNumber: 218,
+                                    lineNumber: 219,
                                     columnNumber: 93
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 218,
+                                lineNumber: 219,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -705,7 +708,7 @@ function ClientEngine({ children }) {
                                                 children: "Total"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 219,
+                                                lineNumber: 220,
                                                 columnNumber: 194
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -713,13 +716,13 @@ function ClientEngine({ children }) {
                                                 children: "€450"
                                             }, void 0, false, {
                                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                                lineNumber: 219,
+                                                lineNumber: 220,
                                                 columnNumber: 212
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                        lineNumber: 219,
+                                        lineNumber: 220,
                                         columnNumber: 92
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$stylingbyva$2d$app$2d$v2$2f$lumina$2d$shop$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -727,25 +730,25 @@ function ClientEngine({ children }) {
                                         children: "Checkout"
                                     }, void 0, false, {
                                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                        lineNumber: 219,
+                                        lineNumber: 220,
                                         columnNumber: 255
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                                lineNumber: 219,
+                                lineNumber: 220,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                        lineNumber: 216,
+                        lineNumber: 217,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/stylingbyva-app-v2/lumina-shop/components/ClientEngine.jsx",
-                lineNumber: 214,
+                lineNumber: 215,
                 columnNumber: 13
             }, this)
         ]

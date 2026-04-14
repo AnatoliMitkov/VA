@@ -8,6 +8,7 @@ import { useGSAP } from '@gsap/react';
 import Lenis from 'lenis';
 
 gsap.registerPlugin(ScrollTrigger);
+gsap.config({ nullTargetWarn: false });
 
 export default function ClientEngine({ children }) {
     const pathname = usePathname();
