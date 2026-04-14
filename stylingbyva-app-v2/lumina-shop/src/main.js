@@ -107,7 +107,21 @@ gsap.utils.toArray('.view-img img').forEach(img => {
     });
 });
 
-// --- 6. Shopping Cart Sidebar ---
+// --- 6. Scroll Text Reveal ---
+gsap.utils.toArray('.reveal-text').forEach(text => {
+    gsap.to(text, {
+        y: 0,
+        opacity: 1,
+        duration: 1.2,
+        ease: "power3.out",
+        scrollTrigger: {
+            trigger: text,
+            start: "top 90%",
+        }
+    });
+});
+
+// --- 7. Shopping Cart Sidebar ---
 const cartTl = gsap.timeline({ paused: true });
 
 cartTl.to('#cart-container', { autoAlpha: 1, duration: 0.01 }) // Makes it visible
