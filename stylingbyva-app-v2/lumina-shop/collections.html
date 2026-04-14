@@ -16,7 +16,7 @@
     </style>
 
   </head>
-  <body class="bg-[#EFECE8] text-[#1C1C1C] font-sans overflow-hidden cursor-none selection:bg-[#1C1C1C] selection:text-[#EFECE8]">
+  <body class="bg-[#1C1C1C] text-[#1C1C1C] font-sans overflow-hidden cursor-none selection:bg-[#1C1C1C] selection:text-[#EFECE8]">
     
     <!-- Reused Cursor & Preloader -->
     <div id="cursor" class="hidden md:flex fixed top-0 left-0 w-3 h-3 bg-[#1C1C1C] rounded-full pointer-events-none z-[9999] -translate-x-1/2 -translate-y-1/2 transition-[width,height,background-color] duration-300 ease-out justify-center items-center text-white text-[10px] uppercase tracking-widest font-medium text-opacity-0"></div>
@@ -38,7 +38,7 @@
     </nav>
 
     <!-- Smooth Scroll Wrapper -->
-    <div id="smooth-wrapper" class="w-full min-h-screen">
+    <div id="smooth-wrapper" class="w-full min-h-screen relative z-10 bg-[#EFECE8] mb-[70vh] md:mb-[60vh] shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
         <div id="smooth-content" class="pt-40 md:pt-56 pb-24 px-6 md:px-12 max-w-[1800px] mx-auto">
             
             <!-- Page Header -->
@@ -52,10 +52,10 @@
                 
                 <!-- Product 1 -->
                 <div class="md:col-span-5 flex flex-col gap-6">
-                    <div class="w-full aspect-[3/4] overflow-hidden rounded-sm view-img group hover-target" data-cursor-text="Shop €450">
+                    <a href="/product.html" class="transition-link w-full aspect-[3/4] overflow-hidden rounded-sm view-img group hover-target block" data-cursor-text="Shop €450">
                         <img class="w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-105" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1500&auto=format&fit=crop" alt="Collection 1">
-                    </div>
-                    <div class="reveal-text opacity-0 translate-y-8 flex justify-between items-center text-sm uppercase tracking-widest font-medium"><p>Aura Vest</p><p>€450</p></div>
+                    </a>
+                    <div class="reveal-text opacity-0 translate-y-8 flex justify-between items-center text-sm uppercase tracking-widest font-medium"><a href="/product.html" class="transition-link hover-target">Aura Vest</a><p>€450</p></div>
                 </div>
 
                 <!-- Product 2 (Pushed Down for asymmetry) -->
@@ -78,6 +78,33 @@
 
         </div>
     </div>
+
+    <!-- Sticky Reveal Footer -->
+    <footer class="fixed bottom-0 left-0 w-full h-[70vh] md:h-[60vh] z-0 bg-[#1C1C1C] text-[#EFECE8] flex flex-col justify-between pt-24 px-6 md:px-12 pb-8">
+        <div class="flex flex-col md:flex-row justify-between items-start gap-16 md:gap-0 max-w-[1800px] mx-auto w-full">
+            <div class="flex flex-col gap-6">
+                <h3 class="font-serif text-4xl md:text-5xl font-light uppercase tracking-widest">The VA Store</h3>
+                <p class="text-xs md:text-sm tracking-[0.2em] font-light uppercase text-white/50 max-w-sm">Elevating traditional craftsmanship into avant-garde fashion.</p>
+            </div>
+            <div class="flex gap-16 md:gap-32 text-xs uppercase tracking-[0.15em] font-medium">
+                <div class="flex flex-col gap-6">
+                    <span class="text-white/30 mb-2">Explore</span>
+                    <a href="/" class="hover-target transition-link hover:text-white/70 transition-colors">Home</a>
+                    <a href="/collections.html" class="hover-target transition-link hover:text-white/70 transition-colors">Collections</a>
+                    <a href="#" class="hover-target hover:text-white/70 transition-colors">Bespoke</a>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <span class="text-white/30 mb-2">Connect</span>
+                    <a href="#" class="hover-target hover:text-white/70 transition-colors">Instagram</a>
+                    <a href="#" class="hover-target hover:text-white/70 transition-colors">Pinterest</a>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between items-center border-t border-white/10 pt-8 text-[10px] md:text-xs uppercase tracking-[0.2em] text-white/40 max-w-[1800px] mx-auto w-full">
+            <p>&copy; 2026 The VA Store.</p>
+            <p class="mt-4 md:mt-0 hover-target">Crafted in Ruse, BG</p>
+        </div>
+    </footer>
 
     <!-- Shopping Cart Sidebar -->
     <div id="cart-container" class="fixed inset-0 z-[200] invisible flex justify-end">

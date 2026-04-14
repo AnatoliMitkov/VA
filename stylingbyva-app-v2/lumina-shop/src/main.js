@@ -141,3 +141,22 @@ document.querySelectorAll('.cart-close, .cart-overlay').forEach(btn => {
         lenis.start(); // Unlock the background scroll
     });
 });
+
+// --- 8. Interactive Accordions ---
+document.querySelectorAll('.accordion-item').forEach(item => {
+    const header = item.querySelector('.accordion-header');
+    const content = item.querySelector('.accordion-content');
+    const icon = item.querySelector('.accordion-icon');
+    let isOpen = false;
+
+    header.addEventListener('click', () => {
+        isOpen = !isOpen;
+        if (isOpen) {
+            gsap.to(content, { height: 'auto', opacity: 1, duration: 0.4, ease: "power3.out" });
+            gsap.to(icon, { rotate: 45, duration: 0.3, ease: "power2.out" });
+        } else {
+            gsap.to(content, { height: 0, opacity: 0, duration: 0.4, ease: "power3.out" });
+            gsap.to(icon, { rotate: 0, duration: 0.3, ease: "power2.out" });
+        }
+    });
+});
