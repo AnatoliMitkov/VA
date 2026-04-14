@@ -29,7 +29,7 @@
             <h1 class="loader-text font-serif text-5xl md:text-7xl font-light tracking-widest uppercase translate-y-full">The VA Store</h1>
         </div>
         <div class="overflow-hidden mt-6">
-            <p class="loader-text font-sans text-xs md:text-sm tracking-[0.3em] uppercase opacity-0">Bespoke Macramé • Sofia</p>
+            <p class="loader-text font-sans text-xs md:text-sm tracking-[0.3em] uppercase opacity-0">Bespoke Macramé • Victoria</p>
         </div>
     </div>
 
@@ -39,7 +39,7 @@
         <div class="hidden md:flex gap-12 text-xs uppercase tracking-[0.2em] font-medium">
             <a href="/collections.html" class="hover-target transition-link">Collections</a>
             <span class="hover-target">Bespoke</span>
-            <span class="hover-target">Cart (0) €</span>
+            <span class="hover-target cart-open cursor-pointer">Cart (1) €</span>
         </div>
     </nav>
 
@@ -104,6 +104,37 @@
                 </div>
             </section>
 
+        </div>
+    </div>
+
+    <!-- Shopping Cart Sidebar -->
+    <div id="cart-container" class="fixed inset-0 z-[200] invisible flex justify-end">
+        <div class="cart-overlay absolute inset-0 bg-[#1C1C1C]/60 backdrop-blur-md opacity-0 cursor-pointer"></div>
+        <div class="cart-panel relative w-full md:w-[30vw] h-full bg-[#EFECE8] translate-x-full flex flex-col shadow-2xl">
+            <div class="flex justify-between items-center p-8 md:p-12 border-b border-[#1C1C1C]/10">
+                <h2 class="font-serif text-3xl md:text-4xl font-light uppercase tracking-widest">Cart</h2>
+                <button class="cart-close hover-target text-xs uppercase tracking-widest font-medium">Close</button>
+            </div>
+            <div class="flex-1 p-8 md:p-12 flex flex-col gap-8 overflow-y-auto">
+                <!-- Cart Item -->
+                <div class="flex gap-6 items-center group">
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=300&auto=format&fit=crop" class="w-20 h-28 object-cover rounded-sm" alt="Aura Vest">
+                    <div class="flex flex-col flex-1 gap-2">
+                        <div class="flex justify-between items-start">
+                            <h3 class="font-sans text-xs uppercase tracking-widest font-medium">Aura Vest</h3>
+                            <button class="text-[10px] uppercase tracking-widest text-gray-400 hover:text-[#1C1C1C] transition-colors">Remove</button>
+                        </div>
+                        <p class="font-sans text-sm font-medium">€450</p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-8 md:p-12 border-t border-[#1C1C1C]/10 bg-[#EFECE8]">
+                <div class="flex justify-between items-center mb-8 font-medium uppercase tracking-widest text-xs">
+                    <span>Total</span>
+                    <span class="text-sm">€450</span>
+                </div>
+                <button class="w-full py-5 bg-[#1C1C1C] text-[#EFECE8] uppercase tracking-[0.2em] text-xs font-medium hover-target transition-colors hover:bg-black">Checkout</button>
+            </div>
         </div>
     </div>
 

@@ -106,3 +106,24 @@ gsap.utils.toArray('.view-img img').forEach(img => {
         }
     });
 });
+
+// --- 6. Shopping Cart Sidebar ---
+const cartTl = gsap.timeline({ paused: true });
+
+cartTl.to('#cart-container', { autoAlpha: 1, duration: 0.01 }) // Makes it visible
+      .to('.cart-overlay', { opacity: 1, duration: 0.4, ease: "power2.out" }, 0)
+      .to('.cart-panel', { x: '0%', duration: 0.6, ease: "power3.inOut" }, 0);
+
+document.querySelectorAll('.cart-open').forEach(btn => {
+    btn.addEventListener('click', () => {
+        cartTl.play();
+        lenis.stop(); // Lock the background scroll
+    });
+});
+
+document.querySelectorAll('.cart-close, .cart-overlay').forEach(btn => {
+    btn.addEventListener('click', () => {
+        cartTl.reverse();
+        lenis.start(); // Unlock the background scroll
+    });
+});
